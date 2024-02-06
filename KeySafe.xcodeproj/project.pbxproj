@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		AB10045D2B70FC40008E3929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10045C2B70FC40008E3929 /* AppDelegate.swift */; };
 		AB10045F2B70FC40008E3929 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10045E2B70FC40008E3929 /* SceneDelegate.swift */; };
-		AB1004612B70FC40008E3929 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1004602B70FC40008E3929 /* MainPageViewController.swift */; };
+		AB1004612B70FC40008E3929 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1004602B70FC40008E3929 /* MainPage.swift */; };
 		AB1004642B70FC40008E3929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1004622B70FC40008E3929 /* Main.storyboard */; };
 		AB1004672B70FC40008E3929 /* KeySafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB1004652B70FC40008E3929 /* KeySafe.xcdatamodeld */; };
 		AB1004692B70FC41008E3929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1004682B70FC41008E3929 /* Assets.xcassets */; };
 		AB10046C2B70FC41008E3929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB10046A2B70FC41008E3929 /* LaunchScreen.storyboard */; };
+		AB71DD6A2B723B5B00CAEC38 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD692B723B5B00CAEC38 /* RxBlocking */; };
+		AB71DD6C2B723B5B00CAEC38 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD6B2B723B5B00CAEC38 /* RxBlocking-Dynamic */; };
+		AB71DD6E2B723B5B00CAEC38 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD6D2B723B5B00CAEC38 /* RxCocoa */; };
+		AB71DD702B723B5B00CAEC38 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD6F2B723B5B00CAEC38 /* RxCocoa-Dynamic */; };
+		AB71DD722B723B5B00CAEC38 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD712B723B5B00CAEC38 /* RxRelay */; };
+		AB71DD782B723D4400CAEC38 /* CreatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD772B723D4400CAEC38 /* CreatePage.swift */; };
+		AB71DD7A2B723D5200CAEC38 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD792B723D5200CAEC38 /* SettingsPage.swift */; };
+		AB71DD7C2B72441A00CAEC38 /* UpdatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */; };
+		AB71DD7E2B7244CA00CAEC38 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */; };
+		AB71DD802B72457C00CAEC38 /* PasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB1004592B70FC40008E3929 /* KeySafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeySafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB10045C2B70FC40008E3929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB10045E2B70FC40008E3929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB1004602B70FC40008E3929 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		AB1004602B70FC40008E3929 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		AB1004632B70FC40008E3929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB1004662B70FC40008E3929 /* KeySafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeySafe.xcdatamodel; sourceTree = "<group>"; };
 		AB1004682B70FC41008E3929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB10046B2B70FC41008E3929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB10046D2B70FC41008E3929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB71DD772B723D4400CAEC38 /* CreatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePage.swift; sourceTree = "<group>"; };
+		AB71DD792B723D5200CAEC38 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePage.swift; sourceTree = "<group>"; };
+		AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB71DD722B723B5B00CAEC38 /* RxRelay in Frameworks */,
+				AB71DD702B723B5B00CAEC38 /* RxCocoa-Dynamic in Frameworks */,
+				AB71DD6E2B723B5B00CAEC38 /* RxCocoa in Frameworks */,
+				AB71DD6A2B723B5B00CAEC38 /* RxBlocking in Frameworks */,
+				AB71DD6C2B723B5B00CAEC38 /* RxBlocking-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +80,9 @@
 			children = (
 				AB10045C2B70FC40008E3929 /* AppDelegate.swift */,
 				AB10045E2B70FC40008E3929 /* SceneDelegate.swift */,
-				AB1004602B70FC40008E3929 /* MainPageViewController.swift */,
+				AB71DD662B723A6E00CAEC38 /* View */,
+				AB71DD652B723A5600CAEC38 /* ViewModel */,
+				AB71DD672B723A8800CAEC38 /* Model */,
 				AB1004622B70FC40008E3929 /* Main.storyboard */,
 				AB1004682B70FC41008E3929 /* Assets.xcassets */,
 				AB10046A2B70FC41008E3929 /* LaunchScreen.storyboard */,
@@ -68,6 +90,49 @@
 				AB1004652B70FC40008E3929 /* KeySafe.xcdatamodeld */,
 			);
 			path = KeySafe;
+			sourceTree = "<group>";
+		};
+		AB71DD652B723A5600CAEC38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB71DD662B723A6E00CAEC38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB1004602B70FC40008E3929 /* MainPage.swift */,
+				AB71DD772B723D4400CAEC38 /* CreatePage.swift */,
+				AB71DD792B723D5200CAEC38 /* SettingsPage.swift */,
+				AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */,
+				AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */,
+				AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB71DD672B723A8800CAEC38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB71DD732B723B8700CAEC38 /* repo */,
+				AB71DD742B723B8F00CAEC38 /* entity */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB71DD732B723B8700CAEC38 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		AB71DD742B723B8F00CAEC38 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +151,13 @@
 			dependencies = (
 			);
 			name = KeySafe;
+			packageProductDependencies = (
+				AB71DD692B723B5B00CAEC38 /* RxBlocking */,
+				AB71DD6B2B723B5B00CAEC38 /* RxBlocking-Dynamic */,
+				AB71DD6D2B723B5B00CAEC38 /* RxCocoa */,
+				AB71DD6F2B723B5B00CAEC38 /* RxCocoa-Dynamic */,
+				AB71DD712B723B5B00CAEC38 /* RxRelay */,
+			);
 			productName = KeySafe;
 			productReference = AB1004592B70FC40008E3929 /* KeySafe.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +186,9 @@
 				Base,
 			);
 			mainGroup = AB1004502B70FC40008E3929;
+			packageReferences = (
+				AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = AB10045A2B70FC40008E3929 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,9 +217,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1004672B70FC40008E3929 /* KeySafe.xcdatamodeld in Sources */,
-				AB1004612B70FC40008E3929 /* MainPageViewController.swift in Sources */,
+				AB71DD7C2B72441A00CAEC38 /* UpdatePage.swift in Sources */,
+				AB71DD7E2B7244CA00CAEC38 /* InfoPage.swift in Sources */,
+				AB1004612B70FC40008E3929 /* MainPage.swift in Sources */,
 				AB10045D2B70FC40008E3929 /* AppDelegate.swift in Sources */,
+				AB71DD7A2B723D5200CAEC38 /* SettingsPage.swift in Sources */,
 				AB10045F2B70FC40008E3929 /* SceneDelegate.swift in Sources */,
+				AB71DD802B72457C00CAEC38 /* PasswordPage.swift in Sources */,
+				AB71DD782B723D4400CAEC38 /* CreatePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +447,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB71DD692B723B5B00CAEC38 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		AB71DD6B2B723B5B00CAEC38 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		AB71DD6D2B723B5B00CAEC38 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		AB71DD6F2B723B5B00CAEC38 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		AB71DD712B723B5B00CAEC38 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB71DD682B723B5B00CAEC38 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AB1004652B70FC40008E3929 /* KeySafe.xcdatamodeld */ = {
