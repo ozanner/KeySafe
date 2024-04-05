@@ -9,4 +9,13 @@ import UIKit
 
 class PasswordPage : UIViewController {
     
+    override func viewDidLoad() {
+        
+    }
+    
+    
+    @IBAction func example(_ sender: Any) {
+        performSegue(withIdentifier: "abc", sender: nil)
+    }
+    
 }
