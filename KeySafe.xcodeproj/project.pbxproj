@@ -21,9 +21,14 @@
 		AB71DD722B723B5B00CAEC38 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = AB71DD712B723B5B00CAEC38 /* RxRelay */; };
 		AB71DD782B723D4400CAEC38 /* CreatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD772B723D4400CAEC38 /* CreatePage.swift */; };
 		AB71DD7A2B723D5200CAEC38 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD792B723D5200CAEC38 /* SettingsPage.swift */; };
-		AB71DD7C2B72441A00CAEC38 /* UpdatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */; };
 		AB71DD7E2B7244CA00CAEC38 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */; };
 		AB71DD802B72457C00CAEC38 /* PasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */; };
+		AB7529082BE117600022F00B /* passwordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7529072BE117600022F00B /* passwordEntity.swift */; };
+		AB75290A2BE11A890022F00B /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7529092BE11A890022F00B /* MainPageViewModel.swift */; };
+		AB75290C2BE11C010022F00B /* PasswordsDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75290B2BE11C010022F00B /* PasswordsDaoRepository.swift */; };
+		AB7529122BE1245B0022F00B /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7529112BE1245B0022F00B /* PasswordCell.swift */; };
+		AB82BF352BE8EE1A00FDC13B /* InfoPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82BF342BE8EE1A00FDC13B /* InfoPageViewModel.swift */; };
+		AB82BF372BE8F65800FDC13B /* CreatePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82BF362BE8F65800FDC13B /* CreatePageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +43,14 @@
 		AB10046D2B70FC41008E3929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB71DD772B723D4400CAEC38 /* CreatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePage.swift; sourceTree = "<group>"; };
 		AB71DD792B723D5200CAEC38 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
-		AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePage.swift; sourceTree = "<group>"; };
 		AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 		AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPage.swift; sourceTree = "<group>"; };
+		AB7529072BE117600022F00B /* passwordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passwordEntity.swift; sourceTree = "<group>"; };
+		AB7529092BE11A890022F00B /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		AB75290B2BE11C010022F00B /* PasswordsDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsDaoRepository.swift; sourceTree = "<group>"; };
+		AB7529112BE1245B0022F00B /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		AB82BF342BE8EE1A00FDC13B /* InfoPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageViewModel.swift; sourceTree = "<group>"; };
+		AB82BF362BE8F65800FDC13B /* CreatePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,9 @@
 		AB71DD652B723A5600CAEC38 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				AB7529092BE11A890022F00B /* MainPageViewModel.swift */,
+				AB82BF342BE8EE1A00FDC13B /* InfoPageViewModel.swift */,
+				AB82BF362BE8F65800FDC13B /* CreatePageViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -102,10 +115,10 @@
 		AB71DD662B723A6E00CAEC38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AB7529102BE124470022F00B /* TableViewCell */,
 				AB1004602B70FC40008E3929 /* MainPage.swift */,
 				AB71DD772B723D4400CAEC38 /* CreatePage.swift */,
 				AB71DD792B723D5200CAEC38 /* SettingsPage.swift */,
-				AB71DD7B2B72441A00CAEC38 /* UpdatePage.swift */,
 				AB71DD7D2B7244CA00CAEC38 /* InfoPage.swift */,
 				AB71DD7F2B72457C00CAEC38 /* PasswordPage.swift */,
 			);
@@ -124,6 +137,7 @@
 		AB71DD732B723B8700CAEC38 /* repo */ = {
 			isa = PBXGroup;
 			children = (
+				AB75290B2BE11C010022F00B /* PasswordsDaoRepository.swift */,
 			);
 			path = repo;
 			sourceTree = "<group>";
@@ -131,8 +145,17 @@
 		AB71DD742B723B8F00CAEC38 /* entity */ = {
 			isa = PBXGroup;
 			children = (
+				AB7529072BE117600022F00B /* passwordEntity.swift */,
 			);
 			path = entity;
+			sourceTree = "<group>";
+		};
+		AB7529102BE124470022F00B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB7529112BE1245B0022F00B /* PasswordCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,14 +240,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1004672B70FC40008E3929 /* KeySafe.xcdatamodeld in Sources */,
-				AB71DD7C2B72441A00CAEC38 /* UpdatePage.swift in Sources */,
+				AB75290C2BE11C010022F00B /* PasswordsDaoRepository.swift in Sources */,
+				AB82BF352BE8EE1A00FDC13B /* InfoPageViewModel.swift in Sources */,
 				AB71DD7E2B7244CA00CAEC38 /* InfoPage.swift in Sources */,
 				AB1004612B70FC40008E3929 /* MainPage.swift in Sources */,
 				AB10045D2B70FC40008E3929 /* AppDelegate.swift in Sources */,
+				AB75290A2BE11A890022F00B /* MainPageViewModel.swift in Sources */,
 				AB71DD7A2B723D5200CAEC38 /* SettingsPage.swift in Sources */,
 				AB10045F2B70FC40008E3929 /* SceneDelegate.swift in Sources */,
+				AB82BF372BE8F65800FDC13B /* CreatePageViewModel.swift in Sources */,
+				AB7529122BE1245B0022F00B /* PasswordCell.swift in Sources */,
 				AB71DD802B72457C00CAEC38 /* PasswordPage.swift in Sources */,
 				AB71DD782B723D4400CAEC38 /* CreatePage.swift in Sources */,
+				AB7529082BE117600022F00B /* passwordEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
