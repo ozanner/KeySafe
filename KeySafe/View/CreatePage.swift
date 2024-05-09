@@ -27,6 +27,7 @@ class CreatePage : UIViewController {
         if let mT = mainTitleTextView.text, let m = mailTextView.text, let pT = passwordTextView.text, let lT = linkTextView.text, let nT = notesTextView.text {
             viewModel.save(mainTitle: mT, mail: m, passwords: pT, link: lT, notes: nT)
         }
+        self.navigationController?.popViewController(animated: true)
     }
     
     

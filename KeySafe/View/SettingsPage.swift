@@ -25,13 +25,14 @@ class SettingsPage : UIViewController {
       
     }
     
-    @IBAction func Switch(_ sender: UISwitch) {
+    @IBAction func `switch`(_ sender: Any) {
         if switchOutlet.isOn == false {
             self.userDefaults.removeObject(forKey: "front")
         } else {
             self.userDefaults.set("", forKey: "front")
         }
     }
+    
     
     @IBAction func Save(_ sender: UIButton) {
         if passwordTextField.text == rePasswordTextField.text {
@@ -40,6 +41,7 @@ class SettingsPage : UIViewController {
         }else {
             print("Şifre aynı değil.")
         }
+        self.navigationController?.popViewController(animated: true)
     }
     
     

@@ -38,6 +38,27 @@ class PasswordsDaoRepository {
         
     }
     
+    func delete(password : PasswordsModel){
+        context.delete(password)
+        appDelegate.saveContext()
+        passwordsLoad()
+    }
+    
+    func search(searchVocab:String){
+        do{
+            let fr = PasswordsModel.fetchRequest()
+            fr.predicate = NSPredicate(format: "mainTitle CONTAINS[c] %@", searchVocab)
+            
+            let array = try context.fetch(fr)
+            passwordList.onNext(array)
+        }
+        catch{
+            print(error.localizedDescription)
+        }
+        
+    }
+    
+    
     func passwordsLoad() {
         do{
             let liste = try context.fetch(PasswordsModel.fetchRequest())

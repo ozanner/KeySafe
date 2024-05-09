@@ -20,6 +20,14 @@ class MainPageViewModel {
     
     func passwordsLoad(){
         krepo.passwordsLoad()
-        
     }
+    
+    func delete(password:PasswordsModel){
+        krepo.delete(password: password)
+    }
+    
+    func search(searchVocab:String){
+        krepo.search(searchVocab: searchVocab)
+    }
+    
 }
